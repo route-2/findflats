@@ -29,7 +29,7 @@ export const AuthContextProvider = ({ children }: Props) => {
   const [fullName, setFullName] = useState<string>('')
   const [email, setEmail] = useState<string>('')
   const [accessToken, setAccessToken] = useState<string>('')
-
+   
   useEffect(() => {
     if (accessToken !== '' && accessToken !== undefined) {
       window.localStorage.setItem('accessToken', accessToken)

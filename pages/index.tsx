@@ -8,8 +8,8 @@ const Home: NextPage = () => {
     <>
     <div className='max-w-[1440px] mx-auto bg-white' 
     > 
-     <Navbar/>
-    <Homepage/>
+    
+    
       </div>
      
     </>
