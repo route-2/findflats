@@ -5,9 +5,9 @@ const Navbar = () => {
   const { accessToken } = useAuth()
 
   return (
-    <div className='navbar h-full px-2 sm:px-4 py-2.5 rounded shadow-xl bg-white '>
+    <div className='navbar w-[100vw]  px-2 sm:px-4  rounded shadow-xl bg-white '>
       <div className='navbar-start'>
-        <a className='text-xl normal-case text-sky-400 btn btn-ghost'>findtheflat</a>
+        <a className='text-xl normal-case text-red-400 btn btn-ghost'>findtheflat</a>
       </div>
       {accessToken !== '' && accessToken !== undefined ? (
         <button className='btn  btn-outline'>Logged In</button>

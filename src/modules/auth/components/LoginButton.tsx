@@ -110,7 +110,7 @@ const LoginButton = () => {
         setShowModal={setCheckPhoneModal}
         clickHandler={checkPhoneHandler}
       />
-      <button className='btn btn-outline text-white bg-sky-500/75 ' onClick={() => loginButtonHandler()}>
+      <button className='btn btn-outline text-white rounded-full bg-red-300 ' onClick={() => loginButtonHandler()}>
         Login/SignUp
       </button>
     </>
