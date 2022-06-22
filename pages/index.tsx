@@ -1,7 +1,7 @@
 import Navbar from '@common/components/Navbar'
 import type { NextPage } from 'next'
 import { Toaster } from 'react-hot-toast'
-import Homepage from '../src/common/components/Homepage'
+import Homepage from './Homepage'
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +9,7 @@ const Home: NextPage = () => {
     <div className='max-w-[1440px] mx-auto bg-white' 
     > 
      <Navbar/>
-     
+    <Homepage/>
       </div>
      
     </>
