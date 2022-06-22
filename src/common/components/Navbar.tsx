@@ -5,7 +5,7 @@ const Navbar = () => {
   const { accessToken } = useAuth()
 
   return (
-    <nav className='navbar px-2 sm:px-4 py-2.5 rounded shadow-xl bg-white '>
+    <div className='navbar h-full px-2 sm:px-4 py-2.5 rounded shadow-xl bg-white '>
       <div className='navbar-start'>
         <a className='text-xl normal-case text-sky-400 btn btn-ghost'>findtheflat</a>
       </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
           <LoginButton />
         </div>
       )}
-    </nav>
+    </div>
   )
 }
 
